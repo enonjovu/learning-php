@@ -1,0 +1,20 @@
+{
+    "name": "eno-njovu/tutor",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        },
+        "files": [
+            "core/helpers/index.php"
+        ]
+    },
+    "require": {
+        "illuminate/container": "^10.28",
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.3"
+    }
+}
